@@ -1,0 +1,82 @@
+[
+  {
+    "ResourceType": "Microsoft.Compute/virtualMachines",
+    "Parameter": [
+      {
+        "Name": "max-cpu-cores",
+        "Value": "4"
+      },
+      {
+        "Name": "max-number-of-vCPUs",
+        "Value": "4"
+      },
+      {
+        "Name": "max-number-of-instances",
+        "Value": "2"
+      }
+    ]
+  },
+  {
+    "ResourceType": "Microsoft.Compute/disks",
+    "Parameter": [
+      {
+        "Name": "max-count",
+        "Value": "1"
+      }
+    ]
+  },
+  {
+    "ResourceType": "Microsoft.Compute/virtualMachines/extensions",
+    "Parameter": [
+      {
+        "Name": "max-count",
+        "Value": "1"
+      }
+    ]
+  },
+  {
+    "ResourceType": "Microsoft.Network/networkInterfaces",
+    "Parameter": [
+      {
+        "Name": "max-count",
+        "Value": "1"
+      }
+    ]
+  },
+  {
+    "ResourceType": "Microsoft.Network/networkSecurityGroups",
+    "Parameter": [
+      {
+        "Name": "max-count",
+        "Value": "1"
+      }
+    ]
+  },
+  {
+    "ResourceType": "Microsoft.Network/publicIPAddresses",
+    "Parameter": [
+      {
+        "Name": "max-count",
+        "Value": "1"
+      }
+    ]
+  },
+  {
+    "ResourceType": "Microsoft.Network/virtualNetworks",
+    "Parameter": [
+      {
+        "Name": "max-count",
+        "Value": "1"
+      }
+    ]
+  },
+  {
+    "ResourceType": "Microsoft.ContainerInstance/containerGroups",
+    "Parameter": [
+      {
+        "Name": "max-count",
+        "Value": "1"
+      }
+    ]
+  }
+]
